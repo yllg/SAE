@@ -1,0 +1,170 @@
+body {
+	color: #686868;
+	font-family: "微软雅黑";
+}
+
+/*导航*/
+#mynavbar {
+	background-color: #148CCA;
+}
+
+#mynavbar a {
+	color:#fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+	background-color: transparent;
+	border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+
+/*去掉白边*/
+.navbar-default{
+	border:none;
+}
+
+/*增加li的hover效果*/
+ #mynavbar .collapse a:hover {
+	background: #fff;
+	color:#148cca;
+}
+
+/*增加li的选中效果*/
+.collapse .active {
+	background-color: #38ace7;
+}
+
+h2{
+    font-size: 16px;
+}
+
+#myP {
+    margin-top:60px;
+}
+
+/*主体*/
+.cont {
+    height: 300px;
+    padding-top: 30px;
+}
+
+.mysea {
+    color: #2AAAEC;
+}
+
+.detailbtn {
+	margin-top: 10px;
+}
+
+.img-responsive {display: inline-block;}
+
+.footerimg{
+    	width:80%;
+    }
+
+small {
+    	display: block;
+    	font-size: 15px;
+    }
+
+
+
+/*小屏sm样式*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .navbar-right {
+    	margin-right: -15px;
+    }
+    .myimg {
+    	width:20%;
+    }
+    .btn.btn-primary{
+    	padding:5px 10px;
+    	font-size:12px;
+    	line-height: 1.5;
+    	border-radius: 3px;
+    }
+    #mynavbar a{
+    	font-size: 14px;
+    }
+    #mynavbar a.navbar-text{
+    	margin:15px 5px;
+    }
+    h3,h4{
+	font-size: 16px;
+	font-weight: bolder;
+    }
+    p,li {
+	font-size: 14px;
+    }
+    #myP {
+    margin-top:20px;
+    }
+    .successimg{
+    	width:60%;
+    }
+    .footerimg{
+    	width:90%;
+    }
+    small {
+    	display: block;
+    	font-size: 14px;
+    }
+}
+
+/*超小屏xs样式*/
+@media screen and ( max-width: 768px) {
+    .mylogin {
+        position: absolute;
+        top: 6px;
+        left: 54%;
+        font-size: 1em;
+    }
+    .myimg {
+    	width:20%;
+    }
+    .btn.btn-primary{
+    	padding:1px 5px;
+    	font-size:12px;
+    	line-height: 1.5;
+    	border-radius: 3px;
+    }
+     #mynavbar a{
+    	font-size: 12px;
+    }
+    #mynavbar a.navbar-text{
+    	margin:15px 3px;
+    }
+    h3,h4{
+	font-size: 14px;
+	font-weight: bolder;
+    }
+    p,li {
+	font-size: 12px;
+    }
+    #myP {
+    margin-top:20px;
+    }
+    .successimg{
+    	width:50%;
+    }
+    .footerimg{
+    	width:55%;
+    }
+    small {
+    	display: block;
+    	font-size: 12px;
+    }
+    .footerdiv{
+    	margin-left: 16.6667%;
+    }
+}
+
+
+
